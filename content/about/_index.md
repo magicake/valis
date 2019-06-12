@@ -9,7 +9,7 @@ date = "05-25-2019"
 
 > 1. Vast Active Living Intelligence System.  The hologram-projecting satellite that creates our perceived reality.  *See: Philip K. Dick's 1981 novel.*
 
-> 2. A less cool-- but still interesting-- personal blog on topics in pure mathematics, computer science, sci-fi, and sometimes music too.
+> 2. A less cool-- but hopefully still interesting-- blog on topics in pure mathematics, computer science, sci-fi, and sometimes music too.
 
 
 Started in May of 2019 by a bored high school senior.  The goal(s)? To...
