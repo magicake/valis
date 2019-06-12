@@ -1,8 +1,9 @@
 baseurl = "https://sahrayusuf.github.io/valis/"
 title = "VALIS"
-# themesDir = "../../"
+#themesDir = "../../"
 theme = "whiteplain"
 languageCode = "en"
+publishDir = "docs"
 # Disqus shortname
 #disqusShortname = ""
 # google analytics tracking id
