@@ -3,58 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://sahrayusuf.github.io/valis/categories/</loc>
-    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
+    <loc>/about/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://sahrayusuf.github.io/valis/post/test/</loc>
-    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>https://sahrayusuf.github.io/valis/post/</loc>
-    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>/tags/</loc>
   </url>
   
   <url>
-    <loc>https://sahrayusuf.github.io/valis/tags/</loc>
-    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sahrayusuf.github.io/valis/</loc>
-    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sahrayusuf.github.io/valis/tags/test/</loc>
-    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sahrayusuf.github.io/valis/categories/test/</loc>
-    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sahrayusuf.github.io/valis/archives/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sahrayusuf.github.io/valis/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://sahrayusuf.github.io/valis/series/</loc>
-    <priority>0</priority>
+    <loc>/</loc>
   </url>
   
 </urlset>

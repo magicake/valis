@@ -1,96 +1,58 @@
-baseurl = "https://sahrayusuf.github.io/valis/"
-title = "VALIS"
-#themesDir = "../../"
-theme = "whiteplain"
-languageCode = "en"
+baseurl = "/"
+languageCode = "en-us"
+theme = "hello-friend-ng"
 publishDir = "docs"
-# Disqus shortname
-#disqusShortname = ""
-# google analytics tracking id
-#googleAnalytics = ""
-pygmentsCodefences = true
-pygmentsUseClasses = true
-pygmentsOptions = "linenos=table"
-# Copyright notice. This is displayer in the footer.
-copyright = "&copy; Copyright 2017 Foo Bar"
 
 [params]
-  # useCDN = false
-  # showShareIcons = true
-  # Date format
-  #dateFormat = "January 2, 2006"
-  # Put images/favicon.ico file
-  #favicon = "images/favicon.ico"
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
 
-# This is displayer in About page.
-[params.author]
-  name = "Sahra Yusuf"
+  # Metadata mostly used in document's head
+  description = "Homepage and blog by Sahra Yusuf"
+  keywords = "homepage, blog, science, informatics, development, programming"
+  images = [""]
 
-  # Gravatar or Abatar image
-  #gravatar = "Gravatar email or MD5 Hash"
-  #avatar = "/path/to/avatar"
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "articles"
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
 
-  twitter = "Sahra username"
-  #facebook = "Facebook username"
-  #googleplus = "Googleplus username"
-  #instagram = "Instagram username"
-  #tumblr = "Tumblr username"
-  #flickr = "Flickr username"
-  #reddit = "Reddit username"
-  #linkedin = "Linkedin username"
-  #slideshare = "Slideshare username"
-  #github = "Github username"
-  #gitlab = "Gitlab username"
-  #bitbucket = "Bitbucket username"
-  #stackoverflow = "Stackoverflow username"
-  #jsfiddle = "Jsfiddle username"
-  #codepen = "Codepen username"
-  #deviantart = "Deviantart username"
-  #behance = "Behance username"
-  #dribbble = "Dribbble username"
-  #wordpress = "Wordpress username"
-  #medium = "Medium username"
-  #foursquare = "Foursquare username"
-  #xing = "Xing username"
-  #quora = "Quora username"
-  #youtube = "Youtube username"
-  #vimeo = "Vimeo username"
-  #whatsapp = "Whatsapp username"
-  #skype = "Skype username"
-  #snapchat = "Snapchat username"
-  #pinterest = "Pinterest username"
-  #telegram = "Telegram username"
-  #vine = "Vine username"
-  #email = "Your email"
+[languages]
+  [languages.en]
+    title = "VALIS"
+    subtitle = "A cool site."
+    keywords = ""
+    copyright = ""
+    readOtherPosts = "Read other posts"
 
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-  series = "series"
+    [languages.en.params.logo]
+      logoText = "VALIS"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
 
-[[menu.main]]
-  name = "Categories"
-  weight = 1
-  identifier = "categories"
-  url = "/categories/"
-[[menu.main]]
-  name = "Tags"
-  weight = 2
-  identifier = "tags"
-  url = "/tags/"
-[[menu.main]]
-  name = "Archives"
-  weight = 3
-  identifier = "archives"
-  url = "/archives/"
-[[menu.main]]
-  name = "About"
-  weight = 4
-  identifier = "about"
-  url = "/about/"
+	# You can create a language based menu
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "articles"
+        name = "Articles"
+        url = "/articles"
 
-[[menu.footer]]
-  name = "About"
-  weight = 1
-  identifier = "about"
-  url = "/about/"
+# And you can even create generic menu
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"

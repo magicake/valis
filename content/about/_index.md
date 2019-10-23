@@ -1,10 +1,5 @@
-+++
-title = "About Valis"
-date = "05-25-2019"
-+++
-
-**VA·LIS**  <sup>2</sup>  
-*ˈvælɪs*  
+**VA·LIS**  <sup>2</sup>
+*ˈvælɪs*
 *noun*
 
 > 1. Vast Active Living Intelligence System.  The hologram-projecting satellite that creates our perceived reality.  *See: Philip K. Dick's 1981 novel.*
